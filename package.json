@@ -1,16 +1,17 @@
 {
-	"name": "web-llm2",
-	"version": "0.0.0",
+	"name": "lucid",
+	"version": "1.0.0",
 	"private": true,
+	"type": "module",
 	"scripts": {
-		"deploy": "wrangler deploy",
-		"dev": "wrangler dev",
-		"start": "wrangler dev",
-		"cf-typegen": "wrangler types"
+		"build": "vite build",
+		"watch": "vite build --watch"
+	},
+	"dependencies": {
+		"@mlc-ai/web-llm": "^0.2.80",
+		"marked": "^17.0.2"
 	},
 	"devDependencies": {
-		"@types/node": "^25.2.3",
-		"typescript": "^5.5.2",
-		"wrangler": "^4.65.0"
+		"vite": "^6.0.0"
 	}
 }

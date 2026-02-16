@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lucid</title>
+	</head>
+	<body>
+		<header>
+			<h1>Lucid</h1>
+			<div id="status">
+				<span id="status-dot"></span>
+				<span id="status-text">Offline</span>
+			</div>
+		</header>
+
+		<div id="loading">
+			<h2>Loading model</h2>
+			<p id="progress-pct">0%</p>
+			<div class="progress-track">
+				<div id="progress-bar"></div>
+			</div>
+			<p id="progress-text">Initializing...</p>
+		</div>
+
+		<div id="chat" class="hidden">
+			<div id="messages"></div>
+
+			<div id="actions">
+				<button id="summarize">Summarize page</button>
+				<button id="clear">Clear</button>
+			</div>
+
+			<div id="input-area">
+				<textarea id="input" rows="1" placeholder="Ask about this page..."></textarea>
+				<button id="send">Send</button>
+			</div>
+		</div>
+
+		<script type="module" src="/src/main.js"></script>
+	</body>
+</html>

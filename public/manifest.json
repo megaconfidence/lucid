@@ -1,0 +1,30 @@
+{
+	"manifest_version": 3,
+	"name": "Lucid",
+	"description": "AI-powered page assistant running entirely in your browser with WebLLM.",
+	"version": "1.0.0",
+	"permissions": ["sidePanel", "activeTab", "scripting"],
+	"host_permissions": ["<all_urls>"],
+	"side_panel": {
+		"default_path": "index.html"
+	},
+	"sidebar_action": {
+		"default_panel": "index.html",
+		"default_title": "Lucid"
+	},
+	"action": {
+		"default_title": "Open Lucid"
+	},
+	"background": {
+		"service_worker": "background.js",
+		"scripts": ["background.js"]
+	},
+	"content_security_policy": {
+		"extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "lucid@example.com"
+		}
+	}
+}
