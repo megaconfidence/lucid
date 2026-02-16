@@ -51,12 +51,12 @@ const MODEL_ID = 'Qwen3-1.7B-q4f16_1-MLC';
 
 Some alternatives:
 
-| Model | Size | Notes |
-|---|---|---|
-| `Llama-3.2-1B-Instruct-q4f16_1-MLC` | ~0.6 GB | Fastest |
-| `Qwen3-1.7B-q4f16_1-MLC` | ~1 GB | Default |
-| `Qwen2.5-3B-Instruct-q4f16_1-MLC` | ~2 GB | Better quality |
-| `Phi-3.5-mini-instruct-q4f16_1-MLC` | ~2 GB | Best quality |
+| Model                               | Size    | Notes          |
+| ----------------------------------- | ------- | -------------- |
+| `Llama-3.2-1B-Instruct-q4f16_1-MLC` | ~0.6 GB | Fastest        |
+| `Qwen3-1.7B-q4f16_1-MLC`            | ~1 GB   | Default        |
+| `Qwen2.5-3B-Instruct-q4f16_1-MLC`   | ~2 GB   | Better quality |
+| `Phi-3.5-mini-instruct-q4f16_1-MLC` | ~2 GB   | Best quality   |
 
 Rebuild after changing: `npm run build`
 
@@ -69,8 +69,3 @@ npm run watch
 ```
 
 Then reload the extension in your browser.
-
-## Demo Tips
-
-- Pre-cache the model before your talk by opening the extension once.
-- The extension cannot read `chrome://` or `about:` pages — use a regular website.
