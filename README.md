@@ -1,6 +1,10 @@
-# Lucid
+<p align="center">
+  <img src="public/images/logo-transparent.png" alt="Lucid" width="400" />
+</p>
 
-A browser extension that summarizes web pages and answers questions about them — powered entirely by [WebLLM](https://webllm.mlc.ai/). All inference runs locally in the browser. No server, no API keys, full privacy.
+<p align="center">
+  A browser extension that summarizes web pages and answers questions about them — powered entirely by <a href="https://webllm.mlc.ai/">WebLLM</a>. All inference runs locally in the browser. No server, no API keys, full privacy.
+</p>
 
 Works in **Chrome** and **Firefox**.
 

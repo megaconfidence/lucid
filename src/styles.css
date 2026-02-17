@@ -44,6 +44,17 @@ header {
 	border-bottom: 1px solid var(--border);
 }
 
+#brand {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+#logo {
+	width: 24px;
+	height: 24px;
+}
+
 header h1 {
 	font-size: 15px;
 	font-weight: 600;
@@ -81,6 +92,12 @@ header h1 {
 	justify-content: center;
 	padding: 40px 32px;
 	gap: 8px;
+}
+
+#loading-logo {
+	width: 64px;
+	height: 64px;
+	margin-bottom: 8px;
 }
 
 #loading h2 {
