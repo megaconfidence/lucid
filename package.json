@@ -8,7 +8,10 @@
 		"watch": "vite build --watch"
 	},
 	"dependencies": {
+		"@ai-sdk/openai-compatible": "^2.0.30",
 		"@mlc-ai/web-llm": "^0.2.80",
+		"@mozilla/readability": "^0.6.0",
+		"ai": "^6.0.97",
 		"marked": "^17.0.2"
 	},
 	"devDependencies": {
